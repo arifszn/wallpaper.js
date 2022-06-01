@@ -1,0 +1,11 @@
+.eslintignore
+.eslintrc.js
+.prettierignore
+.prettierrc
+jest.config.js
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+stats.html
+/.github
+/coverage
+/test
