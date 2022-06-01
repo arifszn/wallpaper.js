@@ -1,0 +1,52 @@
+{
+  "name": "@arifszn/wallpaper-js",
+  "version": "1.0.0",
+  "description": "Get wallpapers on browser/server",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest --silent",
+    "test:coverage": "jest --silent --coverage",
+    "lint": "eslint --ext .js,.jsx .",
+    "lint:fix": "eslint --ext .js,.jsx --fix .",
+    "prettier": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json}'",
+    "prettier:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}'"
+  },
+  "license": "MIT",
+  "author": "arifszn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifszn/wallpaper.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arifszn/wallpaper.js/issues"
+  },
+  "keywords": [
+    "wallpaper",
+    "wallpapers",
+    "reddit wallpaper",
+    "random wallpapers",
+    "fetch wallpapers",
+    "wallpaper api",
+    "funny image",
+    "funny images",
+    "wallpaper generate",
+    "wallpaper generator",
+    "reddit funny",
+    "reddit client",
+    "reddit wallpaper",
+    "reddit wallpapers",
+    "reddit",
+    "reddit image",
+    "reddit image api"
+  ],
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.0",
+    "prettier": "^2.6.2"
+  }
+}
