@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Get wallpapers on browser/server",
   "main": "./src/index.js",
+  "typings": "./types/index.d.ts",
   "scripts": {
     "test": "jest --silent",
     "test:coverage": "jest --silent --coverage",
