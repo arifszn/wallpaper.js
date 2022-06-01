@@ -6,14 +6,9 @@ const { getRandomWallpaper } = require('./wallpaper');
  * @param {object} obj
  * @param {number} obj.total
  * @param {boolean} obj.allowNSFW
- * @param {boolean} obj.allowGIF
  * @returns {array}
  */
-const getWallpaper = async ({
-  total = 1,
-  allowNSFW = true,
-  allowGIF = true,
-} = {}) => {
+const getWallpaper = async ({ total = 1, allowNSFW = true } = {}) => {
   try {
     if (total > 20) {
       throw Error('max value of total is 20');
@@ -24,7 +19,6 @@ const getWallpaper = async ({
     return await getRandomWallpaper({
       total: parseInt(total),
       allowNSFW: allowNSFW,
-      allowGIF: allowGIF,
     });
   } catch (error) {
     console.error(error);
