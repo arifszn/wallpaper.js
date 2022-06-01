@@ -23,6 +23,11 @@
 
 **wallpaper.js** is a JavaScript package to get bulk wallpapers. Supports both browser and server.
 
+You may be interested in also:
+
+- [meme.js](https://github.com/arifszn/meme.js)
+- [Reddit Image Fetcher](https://github.com/arifszn/reddit-image-fetcher)
+
 ## Installation
 
 Install via <a href="https://www.npmjs.com/package/@arifszn/wallpaper-js">NPM</a>.
